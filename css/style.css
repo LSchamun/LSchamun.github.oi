@@ -1,0 +1,525 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color:  #3b3328;
+  
+}
+
+/* HEADER */
+header {
+    
+    border-bottom: 1px solid white;
+    width: 100%;
+    background-color: #856451;
+    height: 165px;
+    
+}
+
+/* PALETA DE COLORES - #3b3328 (verde oscuro)- #af533a naranja opaco - #5c543d verde claro - #856451 marron claro - #281c10 verde oscuro negro */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.barranav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+}
+.navlink {
+    padding-left: 3px;
+    border-left: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+}
+.navlink:hover {
+    color: black;
+}
+/* HEADER */
+
+/* PORTADA */
+.sectionportada {
+    height: 600px;
+    background-image: url(../img/FondoPortada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 30px #000;
+}
+h1 {
+    text-shadow: 2px 2px 2px black;
+    padding-top: 275px;
+    text-align: center;
+    width: 250px;
+    font-size: 65px;
+    line-height: 0.9;
+    margin-bottom: 10px;
+}
+.sectionportada > p {
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 0px 10px;
+}
+/* PORTADA */
+
+/* HISTORIA */
+h2 {
+    border-top: solid 2px #af533a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;  
+    padding-top: 50px;
+    font-size:  2rem;
+}
+.grillaconteinerhistoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.gridhistoria {
+    background-color:  #5c543d;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 30px #000;
+}
+.imggrid {
+    width: 100%;
+    box-shadow: 0px 0px 30px #000;
+}
+
+.h3journey {
+    margin: 50px;
+}
+.contenedorjourney {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.journey {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.journey > li {
+    border-right: #e03d10 solid 1px;
+    margin-left: 40px;
+    padding-right: 10px;
+}
+.journey > li:hover {
+    color: #e03d10;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.contenedorjourney > img {
+    margin-top: 50px;
+    margin: auto;
+    width: 80%;  
+}
+/* HISTORIA */
+
+/* PERSONAJES */
+.grillapersonajes {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+.cajapersonaje {
+    background-color: #5c543d;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px #000;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+.cajapersonaje:hover {
+    transform: translatey(-20px);
+    -webkit-transform: translatey(-20px);
+    -moz-transform: translatey(-20px);
+}
+.sectionpersonajes > div > div {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid white;
+}
+.sectionpersonajes > div > div > img {
+    width: 100%;
+    border-radius: 5px;
+}
+/* PERSONAJES */
+
+/* CAPITULOS */
+.grillacapitulos {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+.sectioncapitulos > div > div {
+    background-color: #5c543d;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px #000;
+}
+.sectioncapitulos > div > div:hover {
+    transition: filter 0.3s ease;
+}
+.sectioncapitulos > div > div:hover:hover {
+    filter: brightness(1.2);
+}
+.sectioncapitulos > div > div > img {
+    width: 100%;
+}
+.grillacapitulos > div > h3 {
+    padding-top: 15px;
+    height: 60px;
+}
+.grillacapitulos > div > img {
+    border-radius: 5px;
+}
+.grillacapitulos > div > p > a {
+    color: #af533a;
+}
+/* CAPITULOS */
+
+/*CORDYCEPS*/
+.contenedorparrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.sectioncordyceps > div > p {
+    width: 90%;  
+    padding: 0px 10px;
+    margin-bottom: 25px;
+}
+.contenedorgrillacordyceps {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.grillacordyceps {
+    /* padding: 10px; */
+    display: grid;
+    grid-template-columns: 300px;
+    gap: 25px;
+}
+.grillacordyceps > div {
+    background-color: #856451;
+    box-shadow: 0px 0px 30px #000;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin:  10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.grillacordyceps > div:hover {
+color: #281c10;
+background-color:  #af533a;
+cursor: pointer;
+ 
+}
+/*CORDYCEPS*/
+
+/* PALETA DE COLORES - #3b3328 (verde oscuro)- #af533a naranja opaco - #5c543d verde claro - #856451 marron claro - #281c10 verde oscuro negro */
+
+
+/*VIDEOS*/
+.contenedoriframes {
+    margin:  0px 10px;  
+}
+.iframecontenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}  
+iframe {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 580px;
+    box-shadow: 0px 0px 30px #000;
+}
+/*VIDEOS*/
+
+/*FORMULARIO*/
+.cajacontacto {
+display: flex;
+justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0px 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 30px #000;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #281c10;
+}
+label {
+    margin: 10px 5px;
+    width: 80%;
+}
+input {
+    margin: 10px 5px;
+    width: 80%;
+}
+textarea {
+    margin: 10px;
+    width: 80%;
+}
+button {
+    margin-top: 3%;
+    color: white;
+    background-color: #856451;
+    margin-bottom: 5%;
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+button:hover {
+    color: black;
+    background-color: #af533a;
+    cursor: pointer;
+}
+/*FORMULARIO*/
+
+/*FOOTER*/
+footer {
+    background-color: #856451;
+    background-image: url(../img/cordycepsMiceliopng3.png), url(../img/cordycepsMiceliopng2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left top; 
+    background-size: 40%, 40%; 
+    height: 500px;
+}
+.contenedordatospersonales {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 30px #000;
+    border-top: 2px solid  white;
+    margin-top: 100px;
+   
+}
+.datospersonales {
+    list-style: none;
+}
+.datospersonales > li {
+    padding-left: 30px;
+    margin: 10px 0px;
+}
+
+.lucasfoto {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid white;
+}
+/*FOOTER*/
+
+@media screen and (min-width:580px) {
+
+    /* PORTADA */
+    h1 {
+        text-align: center;
+        width: 300px;
+        font-size: 100px;
+    }
+    .sectionportada {
+        height: 700px;
+    }
+    .sectionportada > p {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0px 10px; 
+    }
+    /* PORTADA */
+
+    /* HISTORIA */
+    .gridhistoria {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        max-width: 550px;
+    }
+    .imggrid {
+        width: 100%;
+    }
+    .itemhistoria1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    /* HISTORIA */
+
+    /* PERSONAJES */
+    .grillapersonajes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    /* PERSONAJES */
+
+    /* CAPITULOS */
+    .grillacapitulos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    .grillacapitulos > div > h3 {
+        padding-top: 5px;
+        height: 60px;
+    }
+    /* CAPITULOS */
+
+    /*CORDYCEPS*/
+    .grillacordyceps {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 250px 250px;
+        gap: 25px;
+    }
+    /*CORDYCEPS*/
+    }
+@media screen and (min-width:1024px) {
+    body {
+        margin: auto;  
+        max-width: 1680px;  
+    }
+    /* PORTADA */
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100px;
+    }
+    .logo {
+        display: flex;
+        justify-content: start;
+        margin: 5px 5px;
+    }
+    nav {
+        width: 60%;
+    }
+    .barranav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sectionportada {
+        height: 700px;
+        background-image: url(../img/FondoPortada.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    h1 {
+        position: relative;
+        top: 10px;
+        text-align: center;
+        width: 300px;
+        font-size: 100px;
+    }
+    .sectionportada > p {
+        margin-top: 60px;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    /* PORTADA */
+
+    /* HISTORIA */
+    .gridhistoria {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        max-width: 800px;
+    }
+    .itemhistoria1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    /* HISTORIA */
+
+    /* PERSONAJES */
+    .grillapersonajes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 25px;
+    }
+    /* PERSONAJES */
+
+    /* CAPITULOS */
+    .grillacapitulos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 25px;
+    }
+    .grillacapitulos > div > h3 {
+        padding-top: 5px;
+        height: 60px;
+    }
+    /* CAPITULOS */
+
+    /*CORDYCEPS*/
+
+    .grillacordyceps {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    .grillacordyceps > div > h3 {
+        height: 100px;
+    }
+    .sectioncordyceps > p {
+      width: 90%;
+    }
+    /*CORDYCEPS*/
+}

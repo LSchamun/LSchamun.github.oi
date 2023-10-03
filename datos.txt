@@ -1,0 +1,11 @@
+Escuela de Arte Multimedial Da Vinci
+CARRERA: Diseño y Programación Web
+MATERIA: Interacción con Dispositivos Móviles
+TRABAJO PRÁCTICO: Examen Parcial 1
+PROFESOR: D’Addezio Alejandro
+ALUMNO: Lucas Schamun.
+CUATRIMESTRE: 2do Cuatrimestre
+COMISIÓN: DWT2AV
+TURNO: Tarde.
+FECHA DE ENTREGA: 03/10/2023
+URL DEL SITIO: file:///C:/Users/Usuario/Desktop/Dise%C3%B1o%20y%20Desarrollo%20web/SegundoCuatri/InteraccionConDispositivosMoviles/DWT2AV_SCHAMUN_PARCIAL_1-20231001T183042Z-001/DWT2AV_SCHAMUN_PARCIAL_1/index.html
